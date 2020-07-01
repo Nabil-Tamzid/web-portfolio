@@ -67,3 +67,12 @@ section{
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
+.width img{
+    width: 100%;
+}
+.width{
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+}
