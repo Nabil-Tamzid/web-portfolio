@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    font-size: 40px;
+}
+.orange{
+    color:goldenrod;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.Goal-side{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    background-color:orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.resume-button{
+    text-decoration: none;
+    background-image: linear-gradient(powderblue, blue);
+    background-color: powderblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.experience-area{
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+}
+#learner{
+    border-left: 7px solid;
+    border-image: linear-gradient( green, powderblue);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
